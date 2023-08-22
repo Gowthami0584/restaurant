@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+    <fieldset>
+        <form action="Signup" method="post" enctype="multipart/form-data">
+            <h1>Enter your details here</h1>
+            <table>
+                <tr>
+                    <td><label for="name">Name :- </label></td>
+                    <td><input type="text" name="user"></td>
+                </tr>
+                <tr>
+                    <td><label for="mob">Mobile :- </label></td>
+                    <td><input type="number" name="phno"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:-</label></td>
+                    <td><input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="lab">Password:-</label></td>
+                    <td><input type="password" name="pass"></td>
+                </tr>
+                <tr>
+                    <td><label for="gen">Gender</label></td>
+                    <td><input type="radio" name="gender" id="gen">Male <input type="radio" name="gen" id="gen">Female</td>
+                </tr>
+                <tr>
+                    <td><label for="cou">Country</label></td>
+                    <td><select name="country" id="cou">
+                        <option value="cou">Select</option>
+                        <option value="cou">India</option>
+                        <option value="cou">USAs</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="pho">Photo</label></td>
+                    <td><input type="file" name="picture"></td>
+                </tr>
+                <tr>
+                    <td><label for="dob">DOB</label></td>
+                    <td><input type="date" name="dob" id="dob"></td>
+                </tr>
+                <tr>
+                    <td><a href="Login.html"><button>Signup</button></a></td>
+                    <td><a href=""><button>Cancel</button></a></td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+
+</body>
+</html>
